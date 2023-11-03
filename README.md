@@ -1,5 +1,5 @@
-# envoy_mqtt
-Work in Progress 
+# Enphase Envoy MQTT publisher for Mosquitto Broker Home Assistant Intergration
+note: Work in Progress 
 
 This is a mqtt publisher app that will request data from a Ensphase Envoy's URL ( older versions example v.02 ) as the recient update from Home Assistance was a breaking change for older devices. 
 
