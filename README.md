@@ -7,7 +7,7 @@ Dependencies are required:  paho-mqtt and beautifulsoup4
 
 You will need to update your IP address for your local Envoy 
 
-I am currently using the Mosquito MQTT broker and HA core in Docker. 
+I am currently using the Mosquito MQTT broker and HA core in Docker. I run the script as a service.
 
 
 HA configfuration.yaml
