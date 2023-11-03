@@ -12,6 +12,7 @@ I am currently using the Mosquito MQTT broker and HA core in Docker. I run the s
 
 HA configfuration.yaml
 # Template sensor to extract the data from the MQTT JSON object
+```
 mqtt:
   - sensor:
       state_topic: "Envoy"
@@ -24,7 +25,7 @@ mqtt:
       name: 'Today'
       unit_of_measurement: 'Wh'
       value_template: '{{ value_json.Today }}'
-
+```
 
 To display on the dashboard, create a card using the sensors 'Currently' and 'Today' to display the days power production. 
 
