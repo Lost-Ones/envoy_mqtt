@@ -27,6 +27,6 @@ mqtt:
       value_template: '{{ value_json.Today }}'
 ```
 
-To display on the dashboard, create a card using the sensors 'Currently' and 'Today' to display the days power production. 
+To display on the HA dashboard, create a card using the sensors 'Currently' and 'Today' to display the days power production. 
 
 
